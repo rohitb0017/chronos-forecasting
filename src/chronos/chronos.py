@@ -2,6 +2,8 @@
 # SPDX-License-Identifier: Apache-2.0
 
 # Authors: Abdul Fatir Ansari <ansarnd@amazon.com>, Lorenzo Stella <stellalo@amazon.com>, Caner Turkmen <atturkm@amazon.com>
+import sys
+sys.path.insert(0, '/kaggle/working/chronos-forecasting/src')
 
 import logging
 from dataclasses import dataclass
