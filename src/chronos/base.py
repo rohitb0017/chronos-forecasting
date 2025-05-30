@@ -9,15 +9,15 @@ from enum import Enum
 from pathlib import Path
 from typing import TYPE_CHECKING, Dict, List, Optional, Tuple, Union
 
-import os
-os.path.append('/kaggle/working/chronos-forecasting/src/chronos')
+import sys
+sys.path.append('/kaggle/working/chronos-forecasting/src/chronos')
 
 import torch
 
 if TYPE_CHECKING:
     from transformers import PreTrainedModel
 
-from utils import left_pad_and_stack_1D
+from .utils import left_pad_and_stack_1D
 
 
 class ForecastType(Enum):
