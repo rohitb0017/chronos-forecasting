@@ -17,7 +17,7 @@ import torch
 if TYPE_CHECKING:
     from transformers import PreTrainedModel
 
-from .utils import left_pad_and_stack_1D
+from utils import left_pad_and_stack_1D
 
 
 class ForecastType(Enum):
