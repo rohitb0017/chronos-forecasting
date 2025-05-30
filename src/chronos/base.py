@@ -9,6 +9,9 @@ from enum import Enum
 from pathlib import Path
 from typing import TYPE_CHECKING, Dict, List, Optional, Tuple, Union
 
+import sys
+sys.path.insert(0, '/kaggle/working/chronos-forecasting/src/chronos')
+
 import torch
 
 if TYPE_CHECKING:
