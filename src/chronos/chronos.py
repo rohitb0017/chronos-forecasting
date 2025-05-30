@@ -20,8 +20,8 @@ from transformers import (
 )
 
 import chronos
-from .base import BaseChronosPipeline, ForecastType
-from .utils import left_pad_and_stack_1D
+from base import BaseChronosPipeline, ForecastType
+from utils import left_pad_and_stack_1D
 
 logger = logging.getLogger(__file__)
 
