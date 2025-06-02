@@ -1,6 +1,6 @@
 - name: air_pressure_data
   path: /kaggle/input/beijing-weather-excele-book/Beijing_Weather.xlsx
-  column: value
+  column: PRES
   prediction_length: 96       # e.g., predict next 4 days if freq=H
   freq: H
   offset: -96
