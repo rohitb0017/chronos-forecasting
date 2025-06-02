@@ -3,5 +3,5 @@
   column: PRES
   prediction_length: 96       # e.g., predict next 4 days if freq=H
   freq: H
-  offset: -96
+  offset: -480
   num_rolls: 5
